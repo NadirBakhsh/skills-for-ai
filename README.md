@@ -25,6 +25,7 @@ skills/
 | [`code-review`](skills/code-review/SKILL.md) | Reviews code changes for correctness, security, and maintainability. |
 | [`progress-stepper-rsc-suspense`](skills/progress-stepper-rsc-suspense/SKILL.md) | Sequential progress stepper with RSC, Suspense, and `use()` in Next.js 16+. |
 | [`claude-design-skillstack`](skills/claude-design-skillstack/SKILL.md) | Routes 3D/animation/design tasks to [claudedesignskills](https://github.com/freshtechbro/claudedesignskills) and installs them in Cursor. |
+| [`motion-dev-animations`](skills/motion-dev-animations/SKILL.md) | Motion.dev animations — spring physics, scroll effects, gestures ([upstream](https://github.com/199-biotechnologies/motion-dev-animations-skill)). |
 
 ## Installing a Skill
 
