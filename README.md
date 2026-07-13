@@ -21,6 +21,7 @@ skills/
 | Skill | Description |
 |---|---|
 | [`commit-message-writer`](skills/commit-message-writer/SKILL.md) | Generates conventional commit messages from staged git diffs. |
+| [`api-endpoint-calls`](skills/api-endpoint-calls/SKILL.md) | Structures typed API endpoint calls — HTTP client, pure API functions, query-key factories, TanStack Query hooks — for React web and React Native/Expo. |
 | [`readme-writer`](skills/readme-writer/SKILL.md) | Creates or refreshes a project README with a consistent, complete structure. |
 | [`code-review`](skills/code-review/SKILL.md) | Reviews code changes for correctness, security, and maintainability. |
 | [`progress-stepper-rsc-suspense`](skills/progress-stepper-rsc-suspense/SKILL.md) | Sequential progress stepper with RSC, Suspense, and `use()` in Next.js 16+. |
