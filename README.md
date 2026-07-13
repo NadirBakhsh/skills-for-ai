@@ -27,6 +27,12 @@ skills/
 | [`claude-design-skillstack`](skills/claude-design-skillstack/SKILL.md) | Routes 3D/animation/design tasks to [claudedesignskills](https://github.com/freshtechbro/claudedesignskills) and installs them in Cursor. |
 | [`motion-dev-animations`](skills/motion-dev-animations/SKILL.md) | Motion.dev animations — spring physics, scroll effects, gestures ([upstream](https://github.com/199-biotechnologies/motion-dev-animations-skill)). |
 | [`gsap-scrolltrigger`](skills/gsap-scrolltrigger/SKILL.md) | Official GSAP ScrollTrigger — scroll-linked animations, pinning, scrub ([upstream](https://github.com/greensock/gsap-skills)). |
+| [`external-skills-catalog`](skills/external-skills-catalog/SKILL.md) | Add/remove curated external skills via `npx skills` ([catalog](skills/external-skills-catalog/catalog.md)). |
+
+## Recommended stack
+
+- **Frontend**: [Recommended-Stack/Frontend/README.md](skills/Recommended-Stack/Frontend/README.md) · [AI coding rules](skills/Recommended-Stack/Frontend/AI-CODING-RULES.md)
+- **External skills (npx)**: [external-skills-catalog/catalog.md](skills/external-skills-catalog/catalog.md)
 
 ## Installing a Skill
 
