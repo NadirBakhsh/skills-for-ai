@@ -23,6 +23,7 @@ skills/
 | [`commit-message-writer`](skills/commit-message-writer/SKILL.md) | Generates conventional commit messages from staged git diffs. |
 | [`readme-writer`](skills/readme-writer/SKILL.md) | Creates or refreshes a project README with a consistent, complete structure. |
 | [`code-review`](skills/code-review/SKILL.md) | Reviews code changes for correctness, security, and maintainability. |
+| [`progress-stepper-rsc-suspense`](skills/progress-stepper-rsc-suspense/SKILL.md) | Sequential progress stepper with RSC, Suspense, and `use()` in Next.js 16+. |
 
 ## Installing a Skill
 
