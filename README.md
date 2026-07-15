@@ -27,7 +27,15 @@ skills/
 | [`progress-stepper-rsc-suspense`](skills/progress-stepper-rsc-suspense/SKILL.md) | Sequential progress stepper with RSC, Suspense, and `use()` in Next.js 16+. |
 | [`claude-design-skillstack`](skills/claude-design-skillstack/SKILL.md) | Routes 3D/animation/design tasks to [claudedesignskills](https://github.com/freshtechbro/claudedesignskills) and installs them in Cursor. |
 | [`motion-dev-animations`](skills/motion-dev-animations/SKILL.md) | Motion.dev animations — spring physics, scroll effects, gestures ([upstream](https://github.com/199-biotechnologies/motion-dev-animations-skill)). |
-| [`gsap-scrolltrigger`](skills/gsap-scrolltrigger/SKILL.md) | Official GSAP ScrollTrigger — scroll-linked animations, pinning, scrub ([upstream](https://github.com/greensock/gsap-skills)). |
+| [`gsap-skillstack`](skills/gsap-skillstack/SKILL.md) | Routes to official GSAP skills — core, timeline, ScrollTrigger, plugins, React, performance, frameworks ([upstream](https://github.com/greensock/gsap-skills)). |
+| [`gsap-core`](skills/gsap-core/SKILL.md) | Official GSAP core API — tweens, easing, stagger, `matchMedia`. |
+| [`gsap-timeline`](skills/gsap-timeline/SKILL.md) | Official GSAP timelines — sequencing, position parameter, labels. |
+| [`gsap-scrolltrigger`](skills/gsap-scrolltrigger/SKILL.md) | Official GSAP ScrollTrigger — scroll-linked animations, pinning, scrub. |
+| [`gsap-plugins`](skills/gsap-plugins/SKILL.md) | Official GSAP plugins — Flip, Draggable, ScrollSmoother, SplitText, MorphSVG, etc. |
+| [`gsap-utils`](skills/gsap-utils/SKILL.md) | Official GSAP utils — clamp, mapRange, snap, wrap, interpolate. |
+| [`gsap-react`](skills/gsap-react/SKILL.md) | Official GSAP React — `useGSAP`, refs, `gsap.context()`, SSR cleanup. |
+| [`gsap-performance`](skills/gsap-performance/SKILL.md) | Official GSAP performance — transforms, will-change, batching. |
+| [`gsap-frameworks`](skills/gsap-frameworks/SKILL.md) | Official GSAP frameworks — Vue, Svelte, Nuxt, SvelteKit lifecycle. |
 | [`external-skills-catalog`](skills/external-skills-catalog/SKILL.md) | Add/remove curated external skills via `npx skills` ([catalog](skills/external-skills-catalog/catalog.md)). |
 
 ## Recommended stack

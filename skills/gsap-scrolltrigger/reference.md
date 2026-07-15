@@ -7,16 +7,33 @@
 - **License**: MIT (GreenSock)
 - **Docs**: https://gsap.com/docs/v3/Plugins/ScrollTrigger/
 
+## Related skills
+
+Part of the official GSAP skillstack — see [gsap-skillstack/catalog.md](../gsap-skillstack/catalog.md) for the full set and install commands.
+
+| Skill | Use when |
+|-------|----------|
+| `gsap-core` | Tweens, eases, basic GSAP API |
+| `gsap-timeline` | Sequenced multi-step animations |
+| `gsap-react` | React/Next.js cleanup with `useGSAP()` |
+| `gsap-plugins` | ScrollSmoother, ScrollTo, Flip, etc. |
+| `gsap-frameworks` | Vue/Svelte lifecycle |
+| `gsap-performance` | Performance optimization |
+| `gsap-utils` | `gsap.utils` helpers |
+
 ## Install into Cursor
 
 ```bash
 # From this skills-for-ai repo
 cp -r skills/gsap-scrolltrigger ~/.cursor/skills/
 
-# Or fetch upstream directly
-mkdir -p ~/.cursor/skills/gsap-scrolltrigger
-curl -fsSL https://raw.githubusercontent.com/greensock/gsap-skills/main/skills/gsap-scrolltrigger/SKILL.md \
-  -o ~/.cursor/skills/gsap-scrolltrigger/SKILL.md
+# Or full GSAP stack
+for skill in gsap-core gsap-timeline gsap-scrolltrigger gsap-plugins gsap-utils gsap-react gsap-performance gsap-frameworks; do
+  cp -r "skills/$skill" ~/.cursor/skills/
+done
+
+# Or via npx skills
+npx skills add greensock/gsap-skills --skill gsap-scrolltrigger -a cursor -y
 ```
 
 | Scope | Path |
@@ -40,28 +57,6 @@ gsap.registerPlugin(ScrollTrigger);
 ```
 
 For React/Next.js, also install `@gsap/react` and use the `useGSAP()` hook for cleanup.
-
-## Related official GSAP skills
-
-From [greensock/gsap-skills](https://github.com/greensock/gsap-skills) — install alongside as needed:
-
-| Skill | Use when |
-|-------|----------|
-| `gsap-core` | Tweens, eases, basic GSAP API |
-| `gsap-timeline` | Sequenced multi-step animations |
-| `gsap-react` | React/Next.js cleanup with `useGSAP()` |
-| `gsap-plugins` | ScrollSmoother, ScrollTo, other plugins |
-| `gsap-frameworks` | Framework-specific integration |
-| `gsap-performance` | Performance optimization |
-| `gsap-utils` | Utility patterns |
-
-```bash
-REPO=https://raw.githubusercontent.com/greensock/gsap-skills/main/skills
-for skill in gsap-core gsap-timeline gsap-react gsap-plugins; do
-  mkdir -p ~/.cursor/skills/$skill
-  curl -fsSL "$REPO/$skill/SKILL.md" -o ~/.cursor/skills/$skill/SKILL.md
-done
-```
 
 ## Sync from upstream
 
